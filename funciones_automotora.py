@@ -4,9 +4,7 @@ import random
 vehiculos = []
 
 def validar_patente(patente):
-    """Valida que el RUT ingresado sea correcto."""
-    pattern = r"^\d{1,2}\.\d{3}\.\d{3}"
-    return re.match(pattern, ) is not None
+    return re.match(pattern) is not None
 
 def grabar_datos_de_vehiculo(Tipo, patente, marca,precio, multas, fecha_de_registro_vehículo, nombre_del_dueño):
     """Graba los datos de una persona en la lista de afiliados."""
